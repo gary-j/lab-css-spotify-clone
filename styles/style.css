@@ -167,14 +167,20 @@ section {
 .section3 article {
   position: relative;
 }
-.vertical-part .absolute-spotify {
+.absolute-spotify {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 }
 .absolute-spotify img {
-  width: 10%;
+  width: 20%;
+}
+.left {
+  width: 40%;
+}
+.kanye-part {
+  /* margin-left: 4em; */
 }
 .vertical-part .kanye {
   height: 100%;
